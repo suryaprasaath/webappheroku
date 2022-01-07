@@ -1,0 +1,21 @@
+.w3-animate-zoom{
+    animation: animatezoom 1.5s;
+}
+.k {   
+    color: goldenrod;
+    display:inline-block;
+    -webkit-mask:linear-gradient(-60deg,#000 30%,#0005,#000 70%) right/400% 100%;
+    background-repeat: no-repeat;
+    animation: shimmer 2.5s infinite;
+    max-width:550px;
+    font-family: 'Kaushan Script', cursive;
+  }
+  
+  @keyframes shimmer {
+    100% {-webkit-mask-position:left}
+  }
+  
+  .padding-0{
+    padding-right:3%;
+    padding-left:3%;
+}
